@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="" />
     <title>Document</title>
-    <link rel="stylesheet" href="./main.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap"
       rel="stylesheet"
@@ -14,6 +13,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/tw-elements.min.css"
     />
+
     <script src="https://cdn.tailwindcss.com/3.3.0"></script>
     <script>
       tailwind.config = {
@@ -33,6 +33,8 @@
         },
       };
     </script>
+    <link rel="stylesheet" href="./fw.all.min.css" />
+    <link rel="stylesheet" href="./main.css" />
   </head>
   <body>
     <main class="h-screen container">
@@ -447,7 +449,7 @@
       <!-- cards -->
       <!-- about -->
       <section
-        class="flex justify-between items-center flex-wrap sm:flex-col md:flex-row"
+        class="flex justify-between items-center flex-wrap sm:flex-col md:flex-row mt-5"
       >
         <div class="md:w-[20%] sm:w-full">
           <h1 class="mb-4 mt-0 text-5xl font-medium leading-tight text-primary">
@@ -473,10 +475,110 @@
           <img src="assets/images/bgs/crow/DSCF5019.jpg" alt="" />
         </div>
       </section>
+      <hr class="my-12 h-0.5 border-t-0 bg-danger" />
       <!-- about -->
+      <!-- services -->
+      <section
+        class="flex justify-between items-center flex-wrap sm:flex-col md:flex-row mt-5 mb-10 gap-1"
+      >
+        <div class="flex justify-center items-center gap-5 mb-3">
+          <i class="fa-solid fa-gear text-5xl"></i>
+          <p>
+            حلول تكييف فعالة من حيث استهلاك الطاقة <br />
+            والتكلفة وصديقة للبيئة
+          </p>
+        </div>
+        <div class="flex justify-center items-center gap-5 mb-3">
+          <i class="fa-solid fa-person-harassing text-5xl"></i>
+          <p>
+            المحافظة على أن يكون عميلنا <br />
+            متقدم على المعايير العادية
+          </p>
+        </div>
+        <div class="flex justify-center items-center gap-5 mb-3">
+          <i class="fa-solid fa-chart-line text-5xl"></i>
+          <p>
+            دأنا رحلتنا من حيث انتهى الاخرون <br />
+            لنقدم خدمة عملاء استثنائية بحلول مبتكرة،
+          </p>
+        </div>
+      </section>
+      <!-- services -->
+
+      <!-- Our Serices -->
+      <!-- cards -->
+      <section>
+        <h1
+          class="relative text-center mb-4 mt-0 text-5xl font-medium leading-tight text-primary after:content-[''] after:h-0.5 after:w-full after:bg-danger after:bottom-0"
+        >
+          قطاع خدماتنا
+        </h1>
+        <div class="mt-5 grid-con w-full">
+          <div
+            class="block bg-white text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white"
+          >
+            <div class="relative overflow-hidden bg-cover bg-no-repeat">
+              <img class=" " src="assets/images/services/1.webp" alt="" />
+            </div>
+            <div class="p-6">
+              <h1
+                class="mb-4 mt-0 text-2xl text-center font-medium leading-tight text-primary"
+              >
+                صيانة المكيفات
+              </h1>
+              <hr class="mb-5" />
+              <p class="text-base">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+          <div
+            class="block bg-white text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white"
+          >
+            <div class="relative overflow-hidden bg-cover bg-no-repeat">
+              <img class="" src="assets/images/services/2.webp" alt="" />
+            </div>
+            <div class="p-6">
+              <p class="text-base">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+          <div
+            class="block bg-white text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white"
+          >
+            <div class="relative overflow-hidden bg-cover bg-no-repeat">
+              <img class="" src="assets/images/services/3.webp" alt="" />
+            </div>
+            <div class="p-6">
+              <p class="text-base">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+          <div
+            class="block bg-white text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white"
+          >
+            <div class="relative overflow-hidden bg-cover bg-no-repeat">
+              <img class="" src="assets/images/services/4.webp" alt="" />
+            </div>
+            <div class="p-6">
+              <p class="text-base">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- cards -->
     </main>
 
     <script src="./tw-elements.es.min.js"></script>
+    <script src="./js/fw.all.min.js"></script>
     <script type="module" src="main.js"></script>
   </body>
 </html>
